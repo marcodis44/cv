@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root, body {
+    --main-color: #011627;
+    --sec-color: #f8f9fa;
+    --text-accent: #e74c3c;
+    font-family: 'Montserrat', sans-serif !important;
+    color: var(--main-color);
+}
+
+.bg-main-color {
+    background: linear-gradient(to right, rgba(1, 22, 39, 1), rgba(1, 22, 39, .9)), url(./img/bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+
+.text-accent {
+    color: var(--text-accent);
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.icon-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 20px;
+} 
+
+.separator {
+    border: 1px solid var(--text-accent);
+    width: 75%;
+    margin: auto;
+}
+
+.text-main-color {
+    color: var(--main-color);
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+.href:hover {
+    color: var(--text-accent);
+    opacity: 0.8;
+}
+
+.right-side {
+    box-shadow: -1px 0px 0px 0px rgba(0,0,0,.1);
+}
+
+.right-side:before {
+    font-family: "Font Awesome 5 Free";
+    content: "\f111";
+    left: -8px;
+    top: 65px;
+    position: absolute;
+    color: rgba(0,0,0,.1);
+}
+
+.text-skills {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 768px) {
+
+    .text-contacts {
+
+        font-size: 10px !important;
+
+    }
+
+    .separator {
+        width: 50%;
+    }
+
+}
