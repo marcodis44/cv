@@ -19,6 +19,10 @@
     background-position: right center;
 }
 
+.top-section {
+    border-bottom: 3px solid var(--text-accent);
+}
+
 .text-accent {
     color: var(--text-accent);
 }
@@ -59,7 +63,7 @@ h1 {
 .right-side {
     box-shadow: -1px 0px 0px 0px rgba(0,0,0,.1);
 }
-
+/* 
 .right-side:before {
     font-family: "Font Awesome 5 Free";
     content: "\f111";
@@ -68,9 +72,14 @@ h1 {
     position: absolute;
     color: rgba(0,0,0,.1);
 }
+*/
 
-.text-skills {
+ .text-skills {
     font-size: 16px;
+}
+
+.footer-section {
+    border-top: 2px solid var(--text-accent);
 }
 
 @media screen and (max-width: 768px) {
