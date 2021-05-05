@@ -82,6 +82,18 @@ h1 {
     border-top: 2px solid var(--text-accent);
 }
 
+.cv-img {
+    border-radius: 50%;
+    width: 250px;
+    height: 250px;
+    background-color: #74a6b9;
+    background-image: url("img/foto2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center center;
+    object-fit: fill;
+}
+
 @media screen and (max-width: 768px) {
 
     .text-contacts {
